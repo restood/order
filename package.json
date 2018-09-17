@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node server.js",
-    "dev": "npm run lint && nuxt",
+    "dev": "npm run lint && node server.js",
     "debug": "DEBUG=* node --inspect server.js",
     "debug-brk": "DEBUG=* node --inspect-brk server.js",
     "build": "npm run lint && nuxt build",
